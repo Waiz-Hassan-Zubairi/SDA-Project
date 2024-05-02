@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorpane6" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Practice6Controller">
+   <children>
+      <Button fx:id="button1" layoutX="274.0" layoutY="254.0" mnemonicParsing="false" onAction="#display" text="Logout" />
+      <Button fx:id="button2" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Label layoutX="127.0" layoutY="104.0" text="Sorry for wastage of your time">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="190.0" layoutY="190.0" text="We dont have this Blood Group">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

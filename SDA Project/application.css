@@ -1,0 +1,112 @@
+
+/* Apply styles to the AnchorPane */
+#anchorpane {
+   -fx-background-color: #ffffff; /* White background */
+    -fx-background-image: url('file:src/application/bg3.jpg');
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+#anchorpane2 {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-background-image: url('file:src/application/bg1.jpg');
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+#anchorpane3 {
+    -fx-background-color: #ffffaa; 
+}
+#anchorpane5 {
+    -fx-background-color: #f0aa0f; /* White background */
+}
+#anchorpane6 {
+    -fx-background-color: #f0aa0f; /* White background */
+}
+#anchorpane7 {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-background-image: url('file:src/application/bg12.jpg');
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+#anchorpane8 {
+   -fx-background-color: #ffffff; /* White background */
+    -fx-background-image: url('file:src/application/bg12.jpg');
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+#anchorpane9 {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-background-image: url('file:src/application/bg12.jpg');
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+#anchorpane10 {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-background-image: url('file:src/application/bg12.jpg');
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+#anchorpane11 {
+    -fx-background-color: #ffffaa; /* White background */
+}
+#anchorpane12 {
+    -fx-background-color: #ffffaa; /* White background */
+}
+#anchorpane13 {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-background-image: url('file:src/application/main.jpg');
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+/* Apply styles to the buttons */
+#button1, #button2, #button3 {
+    -fx-background-color: #c90000; /* Set button background color */
+    -fx-text-fill: #ffffff; /* Set button text color */
+    -fx-font-size: 14.0;
+    -fx-font-family: 'Agency FB';
+    -fx-border-color: #000000;
+    -fx-border-width: 2.0;
+    -fx-border-radius: 5.0;
+}
+
+/* Add hover effect to the buttons */
+#button1:hover, #button2:hover, #button3:hover {
+    -fx-background-color: #f81414; /* Darker red on hover */
+}
+/* Apply styles to the text fields */
+#name, #age, #contact, #address,#username,#password {
+    -fx-background-color: #ffffff; /* Red background */
+    -fx-border-color: #ff392b; /* Border color */
+    -fx-border-width: 2px;
+    -fx-pref-width: 200px;
+     -fx-font-size: 14px;
+}
+/* Apply styles to the text fields */
+#option1, #option2, #option3, #option4, #option5 {
+    -fx-background-color: #ffffff; /* Red background */
+    -fx-border-color: #c90000; /* Border color */
+    -fx-border-width: 2px;
+    -fx-pref-width: 50px;
+     -fx-font-size: 14px;
+}
+
+#option10 {
+    -fx-background-color: #ffffff; /* Red background */
+    -fx-border-color: #c90000; /* Border color */
+    -fx-border-width: 2px;
+    -fx-pref-width: 100px;
+     -fx-font-size: 14px;
+}
+
+/* Change text field appearance when focused */
+ #option1:focused, #option2:focused, #option3:focused, #option4:focused, #option5:focused, #option10:focused {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #f81414; 
+}
